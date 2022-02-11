@@ -41,7 +41,7 @@ setup(
     version=version_string,
     packages=setuptools.find_packages(),
     include_package_data=True,
-    install_requires=['pandas==0.24.2', 'protobuf==3.6.1', 'xlrd'],
+    install_requires=['pandas==0.24.2', 'protobuf==3.15.0', 'xlrd'],
     url='https://github.com/SaltieRL/carball',
     keywords=['rocket-league'],
     license='Apache 2.0',
